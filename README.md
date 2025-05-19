@@ -22,4 +22,3 @@ This script was written as part of my ongoing effort to practice fundamental alg
 - Dictionary usage
 - Writing clean, readable code
 
-# Char-Count-Algorithm
