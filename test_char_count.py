@@ -8,7 +8,10 @@ class TestCharCount(unittest.TestCase):
         expected = {'h':1, 'e':1, 'l':2, 'o':1}
         self.assertEqual(result, expected)
 
-
+    def test_ignore_spaces_punc(self):
+        result = charCount("Hello, World!")
+        expected = {'h':1, 'e':1, 'l':3, 'o':2, 'w':1, 'r':1, 'd': 1}
+        self.assertEqual(result, expected)
 
 
 if __name__ == "__main__":
